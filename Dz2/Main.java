@@ -9,9 +9,6 @@ public abstract class Main implements TheTool {
         musicTools[4] = new Tube(20);
         musicTools[5] = new Guitar(15);
 
-        // for (int i = 0; i < musicTools.length; i++) {
-//            Instrument a = musicTools[i]();
-//            a.play();
         for (TheTool obj : musicTools) {
             obj.play();
         }
